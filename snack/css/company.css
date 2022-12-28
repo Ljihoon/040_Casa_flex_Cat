@@ -1,0 +1,74 @@
+.company {
+    width: 100%;
+    border: 1px solid rgb(241, 137, 210);
+    border-top: 5px solid rgb(241, 137, 210);
+    /* 포지션 기준값 */
+    position: relative;
+}
+.company_content {
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid rgb(241, 137, 210);
+}
+.company_content img {
+    width: 850px;
+    height: 700px;
+    margin-top: 50px;
+}
+.company_content .company_text1 {
+    font-family: 'Cute Font', cursive;
+    font-size: 62px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+
+}
+
+#company_title {
+    width: 850px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 320px;
+    font-size: 28px;
+    color: orange;
+}
+
+#company_title .title_eng {
+    border-bottom: 5px solid orange;
+    padding-bottom: 30px;
+}
+
+#company_title .title_kr {
+    padding-top: 30px;
+}
+
+.company_text2 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.company_footer_img {
+    text-align: center;
+}
+
+.company_footer_img img{
+    width: 850px;
+    height: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.company_footer_img .company_text3 {
+    font-family: 'Cute Font', cursive;
+    font-size: 62px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}

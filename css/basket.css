@@ -1,0 +1,115 @@
+#basket_list {
+    margin: 0 auto;
+}
+
+#basket_list h2 {
+    font-size: 36px;
+    margin: 20px 0 30px 100px;
+    padding-bottom: 10px;
+}
+#basket_table .basket_list_select {
+    font-size: 18px;
+    border-top: 1px solid #000;
+    margin-left: 100px;
+    /* 플렉스 */
+    display: flex;
+    flex-flow: row wrap;
+}
+#basket_table .basket_list_select li {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+#basket_table .basket_list_select li:nth-child(1) {
+    margin-left: 20px;
+}
+#basket_table .basket_list_select li:nth-child(2) {
+    width: 30%;
+}
+#basket_table .basket_list_select li:nth-child(3) {
+    width: 15%;
+}
+#basket_table .basket_list_select li:nth-child(4) {
+    width: 15%;
+}
+#basket_table .basket_list_select li:nth-child(5) {
+    width: 15%;
+}
+#basket_table .basket_list_select li:nth-child(6) {
+    width: 15%;
+}
+#basket_table .basket_list_select input {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+#basket_table .basket_list_select2 {
+    font-size: 18px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-left: 100px;
+    /* 플렉스 */
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#basket_table .basket_list_select2 li {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+#basket_table .basket_list_select2 li:nth-child(1) {
+    margin-left: 20px;
+}
+#basket_table .basket_list_select2 li:nth-child(2) {
+    width: 30%;
+    line-height: 5;
+}
+#basket_table .basket_list_select2 li:nth-child(3) {
+    width: 15%;
+    line-height: 5;
+}
+#basket_table .basket_list_select2 li:nth-child(4) {
+    width: 15%;
+    line-height: 5;
+}
+#basket_table .basket_list_select2 li:nth-child(5) {
+    width: 15%;
+    line-height: 5;
+}
+#basket_table .basket_list_select2 li:nth-child(6) {
+    width: 15%;
+    line-height: 5;
+}
+#basket_table .basket_list_select2 input {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+#basket_table .basket_list_select2 li img {
+    display: inline-block;
+    text-align: left; 
+    width: 100px;
+    border: 1px solid gray;
+}
+
+#basket_table .basket_list_select2 .money {
+    margin-right: 10px;
+}
+
+#basket_table .basket_list_select2 li span {
+    margin-left: 10px;
+    line-height: 5;
+}
+
+#basket_table .basket_list_select2 li:nth-child(3) button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 20%;
+    background-color: rgb(241, 233, 233);
+    line-height: 30px;
+    padding-right: 1px;
+    cursor: pointer;
+}

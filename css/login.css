@@ -1,0 +1,82 @@
+/* 로그인 CSS */
+
+.login {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.home {
+    width: 500px;
+    float: right;
+}
+
+.login h1 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login h3 {
+    font-size: 13px;
+    text-align: center;
+    color: gray;
+}
+
+.table2 {
+    width: 400px;
+    margin-bottom: 20px;
+}
+.table2 tr td {
+    padding: 15px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(223, 222, 222);
+}
+
+.table2 tr td:active {
+    border-bottom: 1px solid black;
+}
+
+.table2 .login_btn td {
+    border: none;
+}
+
+.table2 .login_btn td input {
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    background: rgb(241, 137, 210);
+    cursor: pointer;
+}
+
+.table2 .login_btn td input:hover {
+    opacity: 0.7;
+}
+
+.table2 .secret_login {
+    position: relative;
+}
+.table2 .secret_login td {
+    font-size: 12px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.table2 .secret_login td img {
+    position: absolute;
+    top: 32%;
+    left: -1%;
+}
+
+.table2 .serch td {
+    text-align: center;
+}
+
+.table2 .serch td a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+}
+.table2 .serch td a span {
+    padding: 10px;
+}

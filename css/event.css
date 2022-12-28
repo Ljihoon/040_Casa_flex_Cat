@@ -1,0 +1,59 @@
+#event_list {
+    margin: 0 auto;
+}
+
+#event_list h2 {
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(110, 107, 107);
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.event_list_text ul {
+    /* 플렉스 */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.event_list_text ul li {
+    width: 430px;
+    border: 1px solid gray;
+    margin: 20px;
+    font-size: 18px;
+    /* 포지션 기준값 */
+    position: relative;
+    cursor: pointer;
+}
+
+.event_list_text ul li a {
+    display: block;
+}
+
+.event_list_text ul li a p {
+    display: inline-block;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.event_list_text ul li a span {
+    display: inline-block;
+    font-size: 24px;
+    color: green;
+    /* 포지션 */
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.event_list_text ul li a strong {
+    display: inline-block;
+    font-size: 18px;
+    color: gray;
+    /* 포지션 */
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+
+

@@ -1,0 +1,179 @@
+/* 회원가입 CSS */
+
+.home {
+    width: 400px;
+    font-size: 18px;
+    /* 플롯 */
+    float: right;
+}
+
+.signup h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.signup .runded {
+    width: 0.3%;
+    height: 15px;
+    margin-right: 5px;
+    border: 1px solid #000;
+    background: rgb(104, 100, 100);
+    border-radius: 2em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    /* 플롯 */
+    float: left;  
+}
+
+.table {
+    margin-bottom: 50px;
+    border-spacing: 0px;
+    border-top: 2px solid rgb(223, 222, 222);
+    border-bottom: 1px solid rgb(223, 222, 222);
+}
+
+.table span {
+    position: absolute;
+    font-size: 18px;
+    color: blue;
+}
+
+.table strong {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.table tr td {
+    border-bottom: 1px solid rgb(223, 222, 222);
+}
+
+.table tr td input {
+    width: 150px;
+    height: 25px;
+    margin-left: 10px;
+    outline: solid;
+    outline-width: 1px;
+    outline-color: rgb(223, 222, 222);
+
+}
+
+.table tr td {
+    width: 10px;
+    margin-bottom: 30px;
+
+}
+
+.table tr td:nth-child(1) {
+    padding: 15px 0 25px 10px;
+    font-size: 12px;
+    background: rgb(250, 248, 248);
+}
+
+.table .ph1 {
+    width: 60px;
+    height: 25px;
+    border: 1px solid #ccc;
+    margin-left: 10px; 
+}
+.table .ph2 {
+    width: 60px;
+    height: 23px;
+}
+.table .ph3 {
+    width: 60px;
+    height: 23px;
+}
+
+.h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.agree {
+    border: 1px solid rgb(223, 222, 222);
+}
+.agree h3 {
+    font-size: 14px;
+    padding: 20px;
+}
+
+.agree p {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 23px;
+    border-bottom: 1px solid rgb(223, 222, 222);
+}
+
+.agree .text {
+    width: 1200px;
+    height: 150px; 
+    font-size: 14px;
+    color: gray;
+    border: 1px solid rgb(223, 222, 222); 
+    background-color: white;
+    white-space: pre-line; 
+    overflow-y: scroll; 
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.agree .ag1 {
+    padding: 0 0 0 20px;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(223, 222, 222);
+}
+
+#cb1 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #bcbcbc;
+    cursor: pointer;
+}
+#cb2 {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 3px 10px 30px 5px;
+    border: 2px solid rgb(223, 222, 222);
+    cursor: pointer;
+}
+#cb3 {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 3px 10px 30px 5px;
+    border: 2px solid rgb(223, 222, 222);
+    cursor: pointer;
+}
+#cb4 {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 3px 10px 30px 5px;
+    border: 2px solid rgb(223, 222, 222);
+    cursor: pointer;
+}
+
+.box1 {
+    /* 포지션 기준값 */
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.box2 {
+    width: 125px;
+    height: 40px;
+    border-radius: 5%;
+    background: rgb(241, 137, 210);
+    color: #fff;
+    /* 포지션 */
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    cursor: pointer;
+}
